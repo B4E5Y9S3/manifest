@@ -5,11 +5,11 @@
 <remote name="hub" fetch="https://github.com" />
         
   <!-- Device Trees -->
-  <project path="device/xiaomi/merlinx" name="MrShockWAVEog/android_device_xiaomi_merlinx.git" remote="hub" revision="inf"  />
-  <project path="device/xiaomi/lancelot" name="MrShockWAVEog/android_device_xiaomi_lancelot.git" remote="hub" revision="inf"  />
+  <project path="device/xiaomi/merlinx" name="MrShockWAVEog/android_device_xiaomi_merlinx.git" remote="hub" revision="vos"  />
+  <project path="device/xiaomi/lancelot" name="MrShockWAVEog/android_device_xiaomi_lancelot.git" remote="hub" revision="vos"  />
 
   <!-- Common Device Tree -->
-  <project path="device/xiaomi/mt6768-common" name="MrShockWAVEog/android_device_xiaomi_mt6768-common.git" remote="hub" revision="inf"  />
+  <project path="device/xiaomi/mt6768-common" name="MrShockWAVEog/android_device_xiaomi_mt6768-common.git" remote="hub" revision="vos"  />
   
   <!-- Kernel Trees-->
   <project path="kernel/xiaomi/mt6768" name="MrShockWAVEog/android_kernel_xiaomi_mt6768-k419.git" remote="hub" revision="shockwave" />
@@ -22,8 +22,7 @@
   <!-- Sepolicy Tree -->
   <project path="device/mediatek/sepolicy_vndr" name="LineageOS/android_device_mediatek_sepolicy_vndr" remote="hub" revision="lineage-24.0" />
 
-  <!-- Hardware Tree -->
+  <!-- Hardware Tree (hardware/xiaomi is provided by VoltageOS) -->
   <project path="hardware/mediatek" name="LineageOS/android_hardware_mediatek" remote="hub" revision="lineage-24.0" />
-  <project path="hardware/xiaomi" name="LineageOS/android_hardware_xiaomi" remote="hub" revision="lineage-24.0" />
 
 </manifest>
